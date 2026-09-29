@@ -7,7 +7,7 @@ cask "agentboard-app" do
   desc "Menu bar and notch app for your coding agents"
   homepage "https://github.com/hiteshbandhu/agentboard"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "AgentBoard.app"
 
@@ -19,7 +19,5 @@ cask "agentboard-app" do
 
   uninstall quit: "dev.agentboard.bar"
 
-  zap trash: [
-    "~/Library/Preferences/dev.agentboard.bar.plist",
-  ]
+  zap trash: "~/Library/Preferences/dev.agentboard.bar.plist"
 end
