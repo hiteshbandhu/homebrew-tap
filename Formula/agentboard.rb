@@ -1,28 +1,28 @@
 class Agentboard < Formula
   desc "Live board for your coding agents: Claude Code and Codex, local and over SSH"
   homepage "https://github.com/hiteshbandhu/agentboard"
-  version "0.1.3"
+  version "0.1.4"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/hiteshbandhu/agentboard/releases/download/v0.1.3/agentboard_0.1.3_darwin_arm64.tar.gz"
-      sha256 "49c0a402be4867f057346227b7b7d460593a8f4c1ec740b723f70ac8f29ca55b"
+      url "https://github.com/hiteshbandhu/agentboard/releases/download/v0.1.4/agentboard_0.1.4_darwin_arm64.tar.gz"
+      sha256 "24b617a72753064135e3487474ef51296edc8a4d28c8383776d97de0aa0778f4"
     end
     on_intel do
-      url "https://github.com/hiteshbandhu/agentboard/releases/download/v0.1.3/agentboard_0.1.3_darwin_amd64.tar.gz"
-      sha256 "f40353c644e976a3acfe4f6043552bca987aaf70a2d68590f9b9e9fd95fbdec3"
+      url "https://github.com/hiteshbandhu/agentboard/releases/download/v0.1.4/agentboard_0.1.4_darwin_amd64.tar.gz"
+      sha256 "bd003e916a1ea613e5549b46f5f2cf718f365607888f4f7c5f8db6fc7a1b75e8"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/hiteshbandhu/agentboard/releases/download/v0.1.3/agentboard_0.1.3_linux_arm64.tar.gz"
-      sha256 "2b8cf1ca0b0907fc2a4b89a8b5e5e59358a5a767198676526e00e90bbc47359a"
+      url "https://github.com/hiteshbandhu/agentboard/releases/download/v0.1.4/agentboard_0.1.4_linux_arm64.tar.gz"
+      sha256 "91b01cea2dc579466c4baabc4841ca7f70174b24fa1d0ab52a3e7c36a72dcfeb"
     end
     on_intel do
-      url "https://github.com/hiteshbandhu/agentboard/releases/download/v0.1.3/agentboard_0.1.3_linux_amd64.tar.gz"
-      sha256 "33855a2fd1dec8fec0c92bae874799689fa1415cb13f1514472a9b050fc93147"
+      url "https://github.com/hiteshbandhu/agentboard/releases/download/v0.1.4/agentboard_0.1.4_linux_amd64.tar.gz"
+      sha256 "211e59c0f882b0bce59bf4aed8657f9003a2c230e5a6cf55595ecfa8c2b821ec"
     end
   end
 

@@ -1,6 +1,6 @@
 cask "agentboard-app" do
-  version "0.1.3"
-  sha256 "40433fa4df702def846fac672d17114b92d8d967349592f7e0bdda7736e11d58"
+  version "0.1.4"
+  sha256 "4f5b59f5edac8aea886d7655aa630baf52cbe15b2b712a78b0ef38b698d0f102"
 
   url "https://github.com/hiteshbandhu/agentboard/releases/download/v#{version}/AgentBoard-#{version}.zip"
   name "AgentBoard"
