@@ -1,8 +1,8 @@
 # hiteshbandhu/tap
 
-Homebrew tap for [agentboard](https://github.com/hiteshbandhu/agentboard).
+Homebrew tap for [hallmonitor](https://github.com/hiteshbandhu/hallmonitor).
 
 ```bash
-brew install hiteshbandhu/tap/agentboard          # terminal board (macOS, Linux)
-brew install --cask hiteshbandhu/tap/agentboard-app  # menu bar + notch app (macOS 14+)
+brew install hiteshbandhu/tap/hallmonitor          # terminal board (macOS, Linux)
+brew install --cask hiteshbandhu/tap/hallmonitor-app  # menu bar + notch app (macOS 14+)
 ```
