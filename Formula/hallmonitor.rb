@@ -1,28 +1,28 @@
 class Hallmonitor < Formula
-  desc "Hall monitor for your coding agents: Claude Code and Codex, local and over SSH"
+  desc "Hall monitor for your coding agents: Claude Code, Codex and opencode, local and over SSH"
   homepage "https://github.com/hiteshbandhu/hallmonitor"
-  version "0.4.1"
+  version "0.5.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/hiteshbandhu/hallmonitor/releases/download/v0.4.1/hallmonitor_0.4.1_darwin_arm64.tar.gz"
-      sha256 "df35b69f3996c022c7da82b6fb0928b820bff84dd00a59967e06b5167c506abc"
+      url "https://github.com/hiteshbandhu/hallmonitor/releases/download/v0.5.0/hallmonitor_0.5.0_darwin_arm64.tar.gz"
+      sha256 "2f526cb7a9f47f4385625d7a7838dea0cdb054ebe60690474b649b172c2ade56"
     end
     on_intel do
-      url "https://github.com/hiteshbandhu/hallmonitor/releases/download/v0.4.1/hallmonitor_0.4.1_darwin_amd64.tar.gz"
-      sha256 "de7beceec7c28773d4f378d43107c76862291f1bf3ad3b228e5025aa98e64dab"
+      url "https://github.com/hiteshbandhu/hallmonitor/releases/download/v0.5.0/hallmonitor_0.5.0_darwin_amd64.tar.gz"
+      sha256 "0e3317f71cdc8037ce2b356656d2ea1f6bc617f82e7fb797696fb8c6fcd2a242"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/hiteshbandhu/hallmonitor/releases/download/v0.4.1/hallmonitor_0.4.1_linux_arm64.tar.gz"
-      sha256 "cdcec4e10fae6bc217e3b98b1c6f68f87f5275cfe3f5048f8088ba8f19783d4a"
+      url "https://github.com/hiteshbandhu/hallmonitor/releases/download/v0.5.0/hallmonitor_0.5.0_linux_arm64.tar.gz"
+      sha256 "70f409a7ebfd16c4fd713a98bbd5b04891b4d1559314b50f36bf6b5b43b7bd7e"
     end
     on_intel do
-      url "https://github.com/hiteshbandhu/hallmonitor/releases/download/v0.4.1/hallmonitor_0.4.1_linux_amd64.tar.gz"
-      sha256 "981ac3a4459483cbe0b6363d227e9beafb7c3636bc5bbc34ecd82ddaaf1876e6"
+      url "https://github.com/hiteshbandhu/hallmonitor/releases/download/v0.5.0/hallmonitor_0.5.0_linux_amd64.tar.gz"
+      sha256 "1c6df301744d286f8f7f6f44b2f1c6cd5f1715a1ed36c1418c311465748dd823"
     end
   end
 
