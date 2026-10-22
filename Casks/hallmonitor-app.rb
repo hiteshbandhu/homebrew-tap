@@ -1,6 +1,6 @@
 cask "hallmonitor-app" do
-  version "0.5.3"
-  sha256 "648769810ee2c2c1b4029c495cebcd020f53e3e07f51421c259e95da47182163"
+  version "0.5.4"
+  sha256 "de606e182aa9aab6579d79e010b4a102cae25642d55bbe47021e35e6b892fb0f"
 
   url "https://github.com/hiteshbandhu/hallmonitor/releases/download/v#{version}/HallMonitor-#{version}.zip"
   name "Hall Monitor"
