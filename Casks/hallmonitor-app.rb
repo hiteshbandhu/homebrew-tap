@@ -13,14 +13,17 @@ cask "hallmonitor-app" do
 
   # The app is ad-hoc signed, not notarized; without this macOS refuses to
   # open it after download.
-  postflight do
-    system_command "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "#{appdir}/HallMonitor.app"]
+  postflight_steps do
+    run "/usr/bin/xattr",
+        args:           ["-dr", "com.apple.quarantine", "{{appdir}}/HallMonitor.app"],
+        writable_paths: ["HallMonitor.app"],
+        writable_base:  :appdir
   end
 
   uninstall quit: ["dev.hallmonitor.app", "dev.agentboard.bar"]
 
   zap trash: [
-    "~/Library/Preferences/dev.hallmonitor.app.plist",
     "~/Library/Preferences/dev.agentboard.bar.plist",
+    "~/Library/Preferences/dev.hallmonitor.app.plist",
   ]
 end
