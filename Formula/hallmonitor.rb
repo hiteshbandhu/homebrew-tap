@@ -1,28 +1,28 @@
 class Hallmonitor < Formula
   desc "Hall monitor for your coding agents: Claude Code, Codex and opencode, local and over SSH"
   homepage "https://github.com/hiteshbandhu/hallmonitor"
-  version "0.5.7"
+  version "0.6.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/hiteshbandhu/hallmonitor/releases/download/v0.5.7/hallmonitor_0.5.7_darwin_arm64.tar.gz"
-      sha256 "12f065c0cb4b7f9e6b7e0be53811688dd6bb589d5fb3e96fb5e673165ad6cd43"
+      url "https://github.com/hiteshbandhu/hallmonitor/releases/download/v0.6.0/hallmonitor_0.6.0_darwin_arm64.tar.gz"
+      sha256 "e42ef639d36463320e2ddd8e76ff342b4a88be042bcf35f89762164fb763f701"
     end
     on_intel do
-      url "https://github.com/hiteshbandhu/hallmonitor/releases/download/v0.5.7/hallmonitor_0.5.7_darwin_amd64.tar.gz"
-      sha256 "33e14dd5373c1b936909dd3bcd7afa081235fc64a25347ccfd3b74e66049d9c2"
+      url "https://github.com/hiteshbandhu/hallmonitor/releases/download/v0.6.0/hallmonitor_0.6.0_darwin_amd64.tar.gz"
+      sha256 "6528de52ffb81035b1cde9004d27c090ebb7226b2f041aaf31741a348bd53627"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/hiteshbandhu/hallmonitor/releases/download/v0.5.7/hallmonitor_0.5.7_linux_arm64.tar.gz"
-      sha256 "26d7f39f131c3115d72d4414458fcca3bdcd1feba93fd450a434c88ab0258cfb"
+      url "https://github.com/hiteshbandhu/hallmonitor/releases/download/v0.6.0/hallmonitor_0.6.0_linux_arm64.tar.gz"
+      sha256 "a691e889d02c18e6b2167d094e87c9a1057be9f217a9fda01bd9d9a8232c764b"
     end
     on_intel do
-      url "https://github.com/hiteshbandhu/hallmonitor/releases/download/v0.5.7/hallmonitor_0.5.7_linux_amd64.tar.gz"
-      sha256 "6611045d441a47bd3ed09a7e181aaf3234e0a06d1364ff519af36b1603848c7e"
+      url "https://github.com/hiteshbandhu/hallmonitor/releases/download/v0.6.0/hallmonitor_0.6.0_linux_amd64.tar.gz"
+      sha256 "f7f143d68718397c2d393e07989779433ddb5bc73bce22f944e9a3a29e05604b"
     end
   end
 
